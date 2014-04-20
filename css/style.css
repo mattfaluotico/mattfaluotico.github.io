@@ -1,0 +1,223 @@
+body {
+	background-image: url("../img/handmadepaper.png");
+	background-repeat: repeat;
+	margin: 0;
+
+}
+
+hr {
+	display: block;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid maroon;
+    margin: 1em 0; padding: 0;
+}
+
+.left {
+	float: left;
+	position: relative;
+}
+
+.right {
+	float: right;
+	position: relative;
+}
+
+.home_title_div {
+	height: 300px;
+	width: 50%;
+	position: relative;
+	margin: auto;
+	margin-top: 256px;
+}
+
+.home_title {
+	font-family: 'Open Sans', sans-serif;
+	color: maroon;
+	font-size: 48pt;
+	font-weight: 200;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.home_subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: gray;
+}
+
+.home_subtitle a {
+	color: gray;
+	text-decoration: none;
+	-webkit-transition: 0.5s ease;
+}
+
+.home_subtitle a:hover {
+	color: gray;
+	text-decoration: none;
+	font-size: 110%;
+}
+
+.navigation {
+	background-color: white;
+	color: maroon;
+	height: 50px;
+	width: 100%;
+	margin: 0 0 0 0 ;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	border-bottom: 1px solid maroon;
+}
+
+.footer {
+	color: gray;
+	height: 25px;
+	width: 100%;
+	margin: 0 0 0 0 ;
+	padding: 0;
+	position: relative;
+	bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9pt ;
+	text-align: center;
+	z-index: 10;
+
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+
+}
+
+.navbar-left {
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 5px 0px 5px 2%;
+	padding: 0;
+}
+
+.navbar-right {
+	display: block;
+	float: right;
+	height: 37px;
+	margin: 5px 2% 5px 0px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+/*Name / Project goes here*/
+.navbar-left-element {
+	display: block;
+	position: relative;
+	float: left;
+	width: 250px;
+	color: maroon;
+	text-align: left;
+	font-size: 20pt;
+}
+
+/* Right Nav Options Elements*/
+.navbar-element {
+	display: block;
+	position: relative;
+	float: left;
+	text-align: right;
+	width: 80px;
+	line-height: 37px;
+}
+
+/*Links inside a nav bar*/
+.navbar-element > a {
+	color: gray;
+	text-decoration: none;
+}
+
+/*Gives priority to the active */
+.nav-active {
+	color: maroon !important;
+	/*text-decoration: none;*/
+}
+
+.content {
+	color: black;
+	background-color: white;
+	margin-top: 80px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	padding: 2%;
+	height: auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+@media (min-width: 750px) {
+	.content {
+
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 700px;
+	}
+}
+
+.text_div {
+	color: black;
+	margin: 3%
+	font-family: 'Open Sans', sans-serif;
+}
+
+.image_div {
+	margin: 0 auto;
+	text-align: center;
+}
+.self_image {
+	border-radius: 500px;
+}
+
+.project_heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: maroon;
+}
+
+.more  {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	color: maroon;
+	font-size: 42px;
+}
+
+
+.cell {
+	display: inline-block;
+}
+
+.half{
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 45%;
+	float: left;
+	display: block;
+	text-align: center;
+
+}
+
+.blocktop {
+	margin-bottom: 150px;
+}
