@@ -3,6 +3,9 @@
 .fade_in_from_top {
 	-webkit-animation-name: fade_in_from_top;
 	-webkit-animation-duration: 1.33s; 
+
+	-moz-animation-name: fade_in_from_top;
+	-moz-animation-duration: 1.33s; 
 }
 
 @-webkit-keyframes fade_in_from_top {
@@ -22,6 +25,11 @@
 	-webkit-animation-duration: 2.66s;
 	-webkit-animation-delay: 1.22s;
 	-webkit-animation-fill-mode: backwards;
+
+	-moz-animation-name: fade_in;	
+	-moz-animation-duration: 2.66s;
+	-moz-animation-delay: 1.22s;
+	-moz-animation-fill-mode: backwards;
 }
 
 .fade_in_delay1 {
@@ -29,6 +37,11 @@
 	-webkit-animation-duration: 2.5s;
 	-webkit-animation-delay: 0.5s;
 	-webkit-animation-fill-mode: backwards;
+
+	-moz-animation-name: fade_in;	
+	-moz-animation-duration: 2.5s;
+	-moz-animation-delay: 0.5s;
+	-moz-animation-fill-mode: backwards;
 }
 
 .fade_in_launch {

@@ -24,11 +24,11 @@ hr {
 }
 
 .home_title_div {
-	height: 300px;
+	height: 200px;
 	width: 50%;
 	position: relative;
 	margin: auto;
-	margin-top: 256px;
+	margin-top: 185px;
 }
 
 .home_title {
@@ -155,7 +155,7 @@ nav {
 	margin-top: 80px;
 	margin-right: 10%;
 	margin-left: 10%;
-	margin-bottom: 10px;
+	margin-bottom: 100px;
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 5px;
 	padding: 2%;
@@ -219,5 +219,5 @@ nav {
 }
 
 .blocktop {
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 }
