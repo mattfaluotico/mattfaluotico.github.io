@@ -202,10 +202,9 @@ nav {
 
 .half{
 	margin: auto; 
-	margin-bottom: 25px; 
-	width: 45%;
-	/*float: left;*/
-	/*display: block;*/
+	margin-bottom: 45px; 
+	width: 65%;
+	
 	text-align: center;
 }
 
@@ -225,10 +224,12 @@ nav {
 	.half {
 		margin-left: 2%;
 		margin-right: 2%;
-		margin-bottom: 25px; 
+		margin-bottom: 50px; 
 		width: 45%;
 		float: left;
-		display: block;
+		display: inline-block;
+		vertical-align: top;
+		height: 200px;
 		text-align: center;
 	}
 }
