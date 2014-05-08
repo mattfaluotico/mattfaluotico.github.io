@@ -1,14 +1,14 @@
 /* Animations */
 
-.fade_in_from_top {
-	-webkit-animation-name: fade_in_from_top;
+.fade-in-from-top {
+	-webkit-animation-name: fade-in-from-top;
 	-webkit-animation-duration: 1.33s; 
 
-	-moz-animation-name: fade_in_from_top;
+	-moz-animation-name: fade-in-from-top;
 	-moz-animation-duration: 1.33s; 
 }
 
-@-webkit-keyframes fade_in_from_top {
+@-webkit-keyframes fade-in-from-top {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(-40px);
@@ -20,38 +20,38 @@
 	}
 }
 
-.fade_in_delay {
-	-webkit-animation-name: fade_in;	
+.fade-in-delay {
+	-webkit-animation-name: fade-in;	
 	-webkit-animation-duration: 2.66s;
 	-webkit-animation-delay: 1.22s;
 	-webkit-animation-fill-mode: backwards;
 
-	-moz-animation-name: fade_in;	
+	-moz-animation-name: fade-in;	
 	-moz-animation-duration: 2.66s;
 	-moz-animation-delay: 1.22s;
 	-moz-animation-fill-mode: backwards;
 }
 
-.fade_in_delay1 {
-	-webkit-animation-name: fade_in;	
+.fade-in-delay1 {
+	-webkit-animation-name: fade-in;	
 	-webkit-animation-duration: 2.5s;
 	-webkit-animation-delay: 0.5s;
 	-webkit-animation-fill-mode: backwards;
 
-	-moz-animation-name: fade_in;	
+	-moz-animation-name: fade-in;	
 	-moz-animation-duration: 2.5s;
 	-moz-animation-delay: 0.5s;
 	-moz-animation-fill-mode: backwards;
 }
 
-.fade_in_launch {
-	-webkit-animation-name: fade_in;	
+.fade-in-launch {
+	-webkit-animation-name: fade-in;	
 	-webkit-animation-duration: 1.5s;
 	-webkit-animation-fill-mode: backwards;	
 }
 
 
-@-webkit-keyframes fade_in {
+@-webkit-keyframes fade-in {
 	0% {
 		opacity: 0;
 	}
@@ -69,14 +69,14 @@
 	-webkit-transform: scale(1.1, 1.1);	
 }
 
-.header_in {
-	-webkit-animation-name: header_in;	
+.header-in {
+	-webkit-animation-name: header-in;	
 	-webkit-animation-duration: 1s;
 	-webkit-animation-delay: 1.66s;
 	-webkit-animation-fill-mode: backwards;
 }
 
-@-webkit-keyframes header_in {
+@-webkit-keyframes header-in {
 	0%{
 		-webkit-transform: translateY(-80px);
 	}
@@ -86,14 +86,14 @@
 	}
 }
 
-.footer_in {
-	-webkit-animation-name: footer_in;	
+.footer-in {
+	-webkit-animation-name: footer-in;	
 	-webkit-animation-duration: 1s;
 	-webkit-animation-delay: 2s;
 	-webkit-animation-fill-mode: backwards;
 }
 
-@-webkit-keyframes footer_in {
+@-webkit-keyframes footer-in {
 	0%{
 		-webkit-transform: translateY(60px);
 	}
