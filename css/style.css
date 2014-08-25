@@ -43,14 +43,17 @@ a:hover {
 
 .contact {
 	display: inline-block;
-	top: 50%;
+	width: 150px;
 	font-size: 32pt;
-	float: right;
+	text-align: right;
 	height: 60px;
+	position: absolute;
+	right: 0px;
 }
 
 .header {
 	margin: auto;
+	position: relative;
 }
 
 .me-image {
@@ -68,6 +71,7 @@ a:hover {
 	margin-left: 10px;
 	color: maroon;
 	height: 60px;
+	width: 50%;
 }
 
 .extra-links {
@@ -75,14 +79,28 @@ a:hover {
 	margin: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
 
 	.container {
 		width: 90%;
 	}
 
+	.me-image {
+		display: none;
+
+	}
+
+	.contact {
+		width: 100px;
+	}
+
 	.title {
-		font-size: 26pt;
+		font-size: 24pt;
+		width: 80%;	
+	}
+
+	i {
+		font-size:18pt;
 	}
 
 }
