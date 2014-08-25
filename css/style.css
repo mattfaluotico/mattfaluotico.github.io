@@ -68,10 +68,10 @@ a:hover {
 	font-size: 32pt;
 	vertical-align: middle;
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 20px;
 	color: maroon;
 	height: 60px;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 .extra-links {
@@ -96,7 +96,7 @@ a:hover {
 
 	.title {
 		font-size: 24pt;
-		width: 80%;	
+		
 	}
 
 	i {
