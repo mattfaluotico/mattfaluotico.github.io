@@ -48,16 +48,16 @@
 	<script type="text/javascript">
 		var $image = $(".header-img");
 		var imageInitHeight = $image.height();
-		var m = 0.6 / (170 - imageInitHeight);
-		var b = 1 - 170*m;
-		var fadeAt = function (x) {
-			return m*x +b;
-		};
+		// var m = 0.6 / (170 - imageInitHeight);
+		// var b = 1 - 170*m;
+		// var fadeAt = function (x) {
+		// 	return m*x +b;
+		// };
 
 		$(window).on("scroll", function() {
 		    var s = Math.max(170, imageInitHeight - $(document).scrollTop());
 		 	$image.width(s).height(s);
-		 	$image.css('-webkit-filter', 'brightness(' + fadeAt(s) + ')');
+		 	// $image.css('-webkit-filter', 'brightness(' + fadeAt(s) + ')');
 		});
 	</script>
 

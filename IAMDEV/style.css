@@ -26,10 +26,10 @@ body {
 .header-img {
 	height: 100vh;
 	width: auto;
-	-webkit-filter: blur(5px);
+/*	-webkit-filter: blur(5px);
 	filter: blur(5px);
 	-webkit-filter: brightness(0.3);
-	filter: brightness(0.2);
+	filter: brightness(0.2);*/
 }
 
 h2 {
