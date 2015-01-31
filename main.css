@@ -27,7 +27,7 @@ hr {
 .title {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Gotham Narrow;
+  font-family: Gotham Narrow, Helvetica, sans-serif;
   font-size: 42pt;
   line-height: 100%;
   text-align: center; }
@@ -38,7 +38,7 @@ hr {
 .subtitle {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: Charter;
+  font-family: Charter, Times New Roman, serif;
   font-weight: 100;
   text-align: center;
   color: #714149; }
