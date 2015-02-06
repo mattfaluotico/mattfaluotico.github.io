@@ -1,10 +1,12 @@
 body {
 	color: $black;
 	margin: 0;
+	font-family: Gotham Narrow, Helvetica, sans-serif;
 }
 
 header {
 	margin-top: 75px;
+	margin-bottom: 50px;
 }
 
 hr  {
@@ -25,7 +27,6 @@ hr  {
 	width: 76%;
 	max-width: 700px;
 	margin: 0 auto;
-	margin-top: 100px;
 	padding: 0;
 }
 
@@ -33,7 +34,7 @@ hr  {
 	margin-top: 15px;
 	margin-bottom: 15px;
 
-	font-family: Gotham Narrow, Helvetica, sans-serif;
+	
 	font-size: 42pt;
 	line-height: 100%;
 
@@ -63,13 +64,18 @@ hr  {
 
 .social {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-
-	color: $red;
+	margin: 15px;
+	width: 40px;	
+	color: $gray;
+	font-size: 18pt;
 	text-decoration: none;
 
 	&:hover {
-		text-decoration: none;
+		color: $red;
+	}
+
+	@media (max-width: 550px) {
+		width: 30px;
+		font-size: 16pt;
 	}
 }
