@@ -6,6 +6,10 @@ body {
 
 header {
 	margin-top: 60px;
+
+	@media (max-width: 550px) {
+		margin-top: 15px;
+	}
 }
 
 hr  {

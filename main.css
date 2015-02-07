@@ -5,6 +5,9 @@ body {
 
 header {
   margin-top: 60px; }
+  @media (max-width: 550px) {
+    header {
+      margin-top: 15px; } }
 
 hr {
   width: 100px;
