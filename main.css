@@ -4,20 +4,18 @@ body {
   font-family: Gotham Narrow, Helvetica, sans-serif; }
 
 header {
-  margin-top: 75px;
-  margin-bottom: 50px; }
+  margin-top: 60px; }
 
 hr {
   width: 100px;
   height: 2px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   background-color: #323232;
-  border: 0;
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  border: 0; }
 
-.intro {
-  height: 100%;
-  display: block; }
+p {
+  font-family: Charter, Times New Roman, serif; }
 
 .container {
   width: 76%;
@@ -26,18 +24,20 @@ hr {
   padding: 0; }
 
 .title {
-  margin-top: 15px;
-  margin-bottom: 15px;
   font-size: 42pt;
   line-height: 100%;
-  text-align: center; }
+  font-weight: 500;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px; }
   @media (max-width: 550px) {
     .title {
       font-size: 28pt; } }
 
 .subtitle {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  maring-bottom: 25px;
+  font-style: italic;
   font-family: Charter, Times New Roman, serif;
   font-weight: 100;
   text-align: center;
@@ -45,6 +45,8 @@ hr {
 
 .social-links {
   margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: center; }
 
 .social {
@@ -60,5 +62,28 @@ hr {
     .social {
       width: 30px;
       font-size: 16pt; } }
+
+.hello {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: Charter, Times New Roman, serif;
+  font-weight: 100; }
+
+.topic {
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  margin: 15px 15px 25px 15px;
+  border-color: #7e7e7e;
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  color: #323232;
+  font-size: 16pt;
+  font-weight: 100;
+  line-height: 40px;
+  text-align: center; }
+  .topic:hover {
+    color: #714149; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,26 +1,29 @@
 body {
 	color: $black;
 	margin: 0;
-	font-family: Gotham Narrow, Helvetica, sans-serif;
+	@include sans;
 }
 
 header {
-	margin-top: 75px;
-	margin-bottom: 50px;
+	margin-top: 60px;
 }
 
 hr  {
 	width: 100px;
 	height: 2px;
+
+	margin-top: $tb;
+	margin-bottom: $tb;
+
 	background-color: $black;
 	border: 0;
-	margin-top: 15px;
-	margin-bottom: 15px;
+}
+
+p {
+	@include serif;
 }
 
 .intro {
-	height: 100%;;
-	display: block;
 }
 
 .container {
@@ -31,27 +34,26 @@ hr  {
 }
 
 .title {
-	margin-top: 15px;
-	margin-bottom: 15px;
-
-	
 	font-size: 42pt;
 	line-height: 100%;
+	font-weight: 500;
 
 	text-align: center;
+
+	margin-top: $tb;
+	margin-bottom: $tb;
 
 	@media (max-width: 550px) {
 		font-size: 28pt;
 	}
-
 }
 
 .subtitle {
 
-	margin-top: 15px;
-	margin-bottom: 15px;
-
-	font-family: Charter, Times New Roman, serif;
+	margin-top: 2*$tb;
+	maring-bottom: $tb;
+	font-style: italic;
+	@include serif;
 	font-weight: 100;
 	text-align: center;
 	color: $red;
@@ -59,6 +61,8 @@ hr  {
 
 .social-links {
 	margin: 0 auto;
+	margin-top: $tb;
+	margin-bottom: $tb;
 	text-align: center;
 }
 
@@ -78,4 +82,39 @@ hr  {
 		width: 30px;
 		font-size: 16pt;
 	}
+}
+
+.hello {
+	margin-top: 50px;
+	margin-bottom: 0;
+	@include serif;
+	font-weight: 100;
+}
+
+.topic {
+	
+	$h: 40px;	
+
+	display: inline-block;
+	width: 130px;
+	height: $h;
+	margin: 15px 15px $tb 15px;
+
+	border: {
+		color: $gray;
+		width: 1px;
+		style: solid;
+	}
+
+	text-decoration: none;
+	color: $black;
+
+	&:hover {
+		color: $red;
+	}
+
+	font-size: 16pt;
+	font-weight: 100;
+	line-height: $h;
+	text-align: center;
 }
