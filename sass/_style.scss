@@ -35,13 +35,12 @@ p {
 }
 
 .intro {
-
 	position: relative;
 }
 
 .scroll {
 	position: absolute;
-	bottom:100px;
+	bottom: 100px;
 	width: 100%;
 	text-align: center;
 }
@@ -162,28 +161,22 @@ p {
 }
 
 .about {
-	margin-top: 500px;
+	margin-top: 0px;
 }
 
 .work { 
 	margin-top: 100px;
 }
 
-.end {
-	height: 300px;
+.item {
+	display: inline;
+	width: 30%;
+	margin: 0;
 }
 
-.fixed {
+.item-img {
+	width: 50%;
+	margin: 0;
+	height: 150px;
 
-	margin-bottom: 65px;
-
-	.hello {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		background: white;
-		margin-top: 0;
-	}
 }
