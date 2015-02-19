@@ -9,6 +9,7 @@
 	  <link rel="stylesheet" type="text/css" href="main.css">
 	  <link rel="stylesheet" href="css/font-awesome.min.css">
 
+	  <script src="jquery.min.js"></script>
 	  <script src="main.js"></script>
 
 		<title>Matt Faluotico</title>
@@ -19,7 +20,7 @@
 				<h1 class="title">Hello there, <br>
 					I'm Matt Faluotico</h1>
 				<h2 class="subtitle">I like how things look</h2>
-				<hr>
+				<!-- <hr> -->
 			</header>
 			<div class="container">
 				<div class="social-links">
@@ -28,17 +29,39 @@
 						<a class="social" href="https://twitter.com/sudo_mf"><i class="fa fa-twitter fa-lg"></i></a>
 						<a class="social" href="https://github.com/MattFaluotico"><i class="fa fa-github fa-lg"></i></a>
 					</div>
-					<div class="row">
+					<div id="end" class="row">
 						<a class="social" href="https://www.facebook.com/matt.faluotico"><i class="fa fa-facebook fa-lg"></i></a>
 						<a class="social" href="http://open.spotify.com/user/mpfal"><i class="fa fa-spotify fa-lg"></i></a>
 						<a class="social" href="https://soundcloud.com/faluotico"><i class="fa fa-soundcloud fa-lg"></i></a>
 					</div>
 					<div class="hello">
-						<a class="topic" href="">About</a>
-						<a class="topic" href="">Work</a>
+						<a class="topic" id="about-button" href="#about">About</a>
+						<a class="topic" href="#work">Work</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="container about">
+			<h2  id="about" class="section-title">Allow me to introduce myself.</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper ante at metus elementum, vulputate laoreet justo ultrices. Ut tincidunt sit amet erat eu tristique. Cras efficitur ullamcorper ipsum, a aliquet metus blandit vitae. Nunc at dictum arcu, eget vestibulum risus. Suspendisse mattis auctor dolor elementum porta. Sed eget blandit erat. Fusce at porta odio. Nullam quis risus elit.</p>
+
+			<p>Nullam sed rutrum velit. Nunc sollicitudin elit nulla, a convallis erat mollis sed. Integer metus tortor, lacinia nec porta eget, eleifend non diam. Integer nibh odio, convallis et quam non, viverra varius mi. Phasellus blandit hendrerit libero ac vulputate. In consectetur eget augue ut interdum. Suspendisse nec leo interdum, semper dolor quis, faucibus nunc. Maecenas efficitur risus neque, in elementum est feugiat at. Sed quis ornare sapien. Integer viverra ipsum urna, ut maximus sem varius quis.</p>
+			<div class="center">
+				<a class="topic touch" href="mailto:matt.faluotico@gmail.com">Let's get in touch</a>				
+			</div>
+		</div>
+		<div class="container work" id="work">
+			<h2 class="section-title">Here's what I've been working on.</h2>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper ante at metus elementum, vulputate laoreet justo ultrices. Ut tincidunt sit amet erat eu tristique. Cras efficitur ullamcorper ipsum, a aliquet metus blandit vitae. Nunc at dictum arcu, eget vestibulum risus. Suspendisse mattis auctor dolor elementum porta. Sed eget blandit erat. Fusce at porta odio. Nullam quis risus elit.</p>
+
+			<p>Nullam sed rutrum velit. Nunc sollicitudin elit nulla, a convallis erat mollis sed. Integer metus tortor, lacinia nec porta eget, eleifend non diam. Integer nibh odio, convallis et quam non, viverra varius mi. Phasellus blandit hendrerit libero ac vulputate. In consectetur eget augue ut interdum. Suspendisse nec leo interdum, semper dolor quis, faucibus nunc. Maecenas efficitur risus neque, in elementum est feugiat at. Sed quis ornare sapien. Integer viverra ipsum urna, ut maximus sem varius quis.</p>
+			<div class="center">
+				<a class="topic touch" href="">Want more? Try Github</a>				
+			</div>
+		</div>
+		<div class="end"></div>
+		<!-- Copyright 2015 | Made with <3 by Matt Faluotico in Columbus, OH -->
 	</body>
 </html>
