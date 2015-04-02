@@ -1,14 +1,15 @@
 $black: rgba(50, 50, 50, 1);
 $gray: rgba(126, 126, 126, 1);
+$grey: $gray;
 $red: #714149;
 
+$margin: 25px;
 $tb: 25px;
 
-
 @mixin serif {
-	font-family: Charter, Times New Roman, serif;
+	font-family: Georgia, Times New Roman, serif;
 }
 
 @mixin sans {
-	font-family: Gotham Narrow, Helvetica, sans-serif;
+	font-family: Gotham, Helvetica, sans-serif;
 }
