@@ -1,5 +1,6 @@
 body {
-	color: white;
+	color: $black;
+	background-color: white;
 	@include sans;
 }
 
@@ -17,7 +18,7 @@ canvas {
   position: fixed;
   width:500px;
   height:500px;
-  background: $black;
+  background: white;
 }
 
 // Home Title
@@ -49,7 +50,7 @@ canvas {
 	letter-spacing: 0.05em;
 	font-size: 20pt;
 	margin-bottom: $margin;
-	color: white;
+	color: $black;
 
 	@media (max-width: 550px) {
 		text-align: center;
@@ -77,7 +78,7 @@ canvas {
 	width: 40px;	
 	
 	font-size: 18pt;
-	color: white;
+	color: $black;
 	text-decoration: none;
 
 	&:hover {
@@ -119,7 +120,7 @@ canvas {
 	height: $h;
 
 	border: {
-		color: white;
+		color: $black;
 		width: 1px;
 		style: solid;
 	}
@@ -137,7 +138,7 @@ canvas {
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 0.05em;
-	color: white;
+	color: $black;
 
 	// selects
 

@@ -169,13 +169,12 @@ function jsStarfield() {
     return color;
 }
 
-	this.draw_rects = function()
-	{
+	this.draw_rects = function() {
 		this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 		
 		for (var i=0; i<this.stars.length; i++)
 		{
-			this.ctx.fillStyle = getRandomColor();
+			this.ctx.fillStyle = "rgb(14,50,127)";
 			var star = this.stars[i];
 			var k = 256 / star.z;
 			var x = star.x*k + this.origin.x;
@@ -230,5 +229,3 @@ function jsStarfield() {
 		this.origin.y = this.canvas.height/2;
 	};		
 }
-
-
