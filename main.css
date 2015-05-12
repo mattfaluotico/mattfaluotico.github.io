@@ -70,9 +70,6 @@ canvas {
 
 .name {
   margin-bottom: 25px; }
-  @media (max-width: 550px) {
-    .name {
-      text-align: center; } }
 
 .title {
   font-size: 42pt;
@@ -82,24 +79,19 @@ canvas {
   margin-bottom: 5px; }
   @media (max-width: 550px) {
     .title {
-      font-size: 28pt; } }
+      font-size: 32pt; } }
 
 .subtitle {
   font-family: Georgia, Times New Roman, serif;
   font-weight: 100;
   letter-spacing: 0.05em;
   font-size: 20pt;
+  line-height: 24pt;
   margin-bottom: 25px;
   color: #323232; }
-  @media (max-width: 550px) {
-    .subtitle {
-      text-align: center; } }
 
 .social-networks {
   margin-top: 90px; }
-  @media (max-width: 550px) {
-    .social-networks {
-      text-align: center; } }
 
 .social {
   -webkit-transition: color 0.1s;
@@ -133,8 +125,9 @@ canvas {
   transition: color 0.1s;
   margin-right: 15px;
   display: inline-block;
-  width: 130px;
+  width: 200px;
   height: 40px;
+  background-color: white;
   border-color: #323232;
   border-width: 1px;
   border-style: solid;
@@ -155,7 +148,7 @@ canvas {
     color: #7e7e7e; }
   @media (max-width: 550px) {
     .link-standalone {
-      width: 100px;
+      width: 150px;
       font-size: 12pt;
       margin-left: 5px;
       margin-right: 5px; } }

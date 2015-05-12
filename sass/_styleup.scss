@@ -26,10 +26,6 @@ canvas {
 .name {
 	margin-bottom: $margin;
 
-	@media (max-width: 550px) {
-		text-align: center;
-	}
-
 }
 
 .title {
@@ -40,7 +36,7 @@ canvas {
 	margin-bottom: 5px;
 
 	@media (max-width: 550px) {
-		font-size: 28pt;
+		font-size: 32pt;
 	}
 }
 
@@ -49,23 +45,15 @@ canvas {
 	font-weight: 100;
 	letter-spacing: 0.05em;
 	font-size: 20pt;
+	line-height: 24pt;
 	margin-bottom: $margin;
 	color: $black;
-
-	@media (max-width: 550px) {
-		text-align: center;
-	}
-
 }
 
 // Social media links
 
 .social-networks {
 	margin-top: 90px;
-
-	@media (max-width: 550px) {
-		text-align: center;
-	}
 
 }
 
@@ -116,8 +104,9 @@ canvas {
 
 	margin-right: 15px;
 	display: inline-block;
-	width: 130px;
+	width: 200px;
 	height: $h;
+	background-color: white;
 
 	border: {
 		color: $black;
@@ -154,7 +143,7 @@ canvas {
 	}
 
 	@media (max-width: 550px) {
-		width: 100px;
+		width: 150px;
 		font-size: 12pt;
 		margin-left: 5px;
 		margin-right: 5px;

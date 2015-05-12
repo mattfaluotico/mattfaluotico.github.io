@@ -5,21 +5,7 @@ window.requestAnimationFrame = 	window.requestAnimationFrame || window.mozReques
 
 window.onload = function() {
 	starfield = new jsStarfield;
-	starfield.init("main_canvas");
-	
-	// var gui = new dat.GUI();
-	// gui.add(starfield, 'amount', 0, 200000).onFinishChange(function(value)
-	// {
-	// 	starfield.set_amount(value);
-	// });
-	// gui.add(starfield, 'speed', 0, 1500);
-	// gui.add(starfield, 'follow_mouse', 0, 2500).onFinishChange(function(value)
-	// {
-	// 	if (value === false)
-	// 		starfield.reset_origin();
-	// })
-	// gui.add(starfield, 'method', [ 'rects', 'buffer'] );
-	
+	starfield.init("main_canvas");	
 	_loop_();
 };
 
@@ -86,8 +72,7 @@ function jsStarfield() {
 		this.init_stars();
 	};
 	
-	this.set_amount = function(amount)
-	{
+	this.set_amount = function(amount) {
 		this.amount = Math.floor(amount);
 		
 		if (this.amount < this.stars.length)
@@ -109,7 +94,8 @@ function jsStarfield() {
 	{
 		// init the stars
 		for (var i=0 ; i<this.amount ; i++)
-			this.stars.push(new Vector3(rand_range(-this.canvas.width,this.canvas.width), 
+			this.stars.push(
+				new Vector3(rand_range(-this.canvas.width,this.canvas.width), 
 										rand_range(-this.canvas.height,this.canvas.height), 
 										rand_range(1, this.max_depth)) );	
 	};
@@ -146,8 +132,7 @@ function jsStarfield() {
 		}	
 	};
 	
-	this.resize = function(width, height)
-	{
+	this.resize = function(width, height) {
 		this.canvas.width = width;
 		this.canvas.height = height;
 		
