@@ -1,2 +1,6 @@
+@import "reset";
 @import "variables";
-@import "style";
+@import "bourbon/bourbon";
+@import "grid";
+// @import "style";
+@import "styleup";
