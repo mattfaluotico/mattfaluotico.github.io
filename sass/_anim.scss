@@ -1,0 +1,11 @@
+body {
+	@include transition(background-color 0.2s );
+}
+
+.hide {
+	opacity: 0;
+}
+
+.r {
+	color: $black !important;
+}

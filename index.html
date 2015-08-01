@@ -8,30 +8,17 @@
 
 	  <link rel="stylesheet" type="text/css" href="style/main.css">
 	  <link rel="stylesheet" href="style/font-awesome.min.css">
+	  
+	  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+	  <script src="bower_components/angular/angular.js"></script>
+	  <script src="bower_components/angular-route/angular-route.js"></script>
+	  <script src="js/app.js"></script>
 
 		<title>Matt Faluotico</title>
 	</head>
-	<body>
-		<div class="container">
-			<header>
-				<div class="name">
-					<h1 class="title">Hello there,</h1>
-					<h1 class="title" id="name">I'm Matt Faluotico</h1>
-				</div>
-				<h2 class="subtitle">I'm an iOS and web developer from Columbus, OH. I'm currently living in San Francisco working with JPMorgan Chase.</h2>
-			</header>
-				<div class="social-networks">
-					<a class="social" href="https://twitter.com/mattfaluotico"><i class="fa fa-twitter fa-lg"></i></a>
-					<a class="social" href="https://github.com/MattFaluotico"><i class="fa fa-github fa-lg"></i></a>
-					<a class="social" href="http://open.spotify.com/user/mpfal"><i class="fa fa-spotify fa-lg"></i></a>
-					<a class="social" href="https://www.behance.net/mattfaluotico"><i class="fa fa-behance fa-lg"></i></a>
-					<a class="social" href="https://www.flickr.com/photos/104908637@N03/"><i class="fa fa-flickr fa-lg"></i></a>
-				</div>
-				<div class="links">
-					<a class="link-standalone" id="about-button" href="/about">Bio</a>
-					<a class="link-standalone" id="about-button" href="/work">Work</a>
-					<a class="link-standalone" id="about-button" href="/thoughts">Thoughts</a>
-				</div>
+	<body ng-app="matt"> 
+		<div class="container" ng-view>
 		</div>
+	  
 	</body>
 </html>

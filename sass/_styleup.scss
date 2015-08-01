@@ -11,6 +11,10 @@ p {
 	margin-bottom: 15px;
 }
 
+a:visited {
+	color: inherit;
+}
+
 canvas {
   position: fixed;
   top: 0;
@@ -84,12 +88,10 @@ canvas {
 // Navigation links
 
 .links {
-	height: 65px;
-	margin-top: 40px;
-
-	@media (max-width: 550px) {
-		text-align: center;
-	}
+	display: inline-block;
+	font-size: 20pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 // All standalone links
@@ -106,7 +108,7 @@ canvas {
 	display: inline-block;
 	width: 200px;
 	height: $h;
-	background-color: white;
+	background-color: 0;
 
 	border: {
 		color: $black;
@@ -130,6 +132,7 @@ canvas {
 	color: $black;
 
 	// selects
+
 
 	&.touch {
 		width: auto;
@@ -167,3 +170,4 @@ canvas {
 #intouch {
 	width: 200px;
 }
+
