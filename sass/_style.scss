@@ -1,3 +1,41 @@
+body {
+	color: $black;
+	background-color: white;
+	@include sans;
+}
+
+a {
+	
+	@include transition(color 0.2s ease);
+	color: $black;
+
+	&:hover {
+		color: $blue;
+	}	
+}
+
+p {
+	@include serif;
+	line-height: 21pt;
+	font-size: $p;
+	margin-bottom: $margin;
+}
+
+.title {
+	font-size: 42pt;
+	line-height: 100%;
+	font-weight: 500;
+	margin-top: $margin-small;
+
+	@media (max-width: 550px) {
+		font-size: 32pt;
+	}
+}
+
+.subtitle {
+	margin: $margin 0 $margin 0;
+}
+
 .il {
 	padding-right: 20px;
 	padding-left: 20px;
@@ -6,4 +44,60 @@
 
 .f {
 	padding-left: 0 !important;
+}
+
+.section-title {
+	font-size: 24pt;
+	font-weight: 500;
+	margin-bottom: $margin;
+}
+
+.hmu {
+	margin-bottom: $margin;
+}
+
+.social {
+	font-size: $p;
+	a {
+		color: $black;
+	}
+}
+
+.link-standalone {
+	@include transition(color 0.2s ease, border 0.2s ease);
+	
+	margin-bottom: $margin;
+	margin-right: $margin;
+	display: inline-block;
+	padding: $margin-small * 2;
+	color: $black;
+	width: 130px;
+	text-align: center;
+	text-decoration: none;
+
+	&.extend {
+		width: auto;
+	}
+
+	border: {
+		color: $black;
+		width: 1px;
+		style: solid;
+	}
+
+	&:hover {
+		color: $blue;
+		border-color: $blue;
+	}
+}
+
+.back {
+	margin-bottom: $margin;
+	display: inline-block;
+	text-decoration: none;
+
+
+	&:before {
+		content: "< ";
+	}
 }

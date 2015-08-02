@@ -13,7 +13,7 @@ $(document).ready(function() {
 		$(".il").removeClass("hide");
 	})
 
-	$(".links").hover(function() {
+$(".social").hover(function() {
 		$("header, .hmu").addClass("hide");
 	}, function() {
 		$("header, .hmu").removeClass("hide");
