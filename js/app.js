@@ -32,5 +32,7 @@ app.controller('bio', function($scope) {
 });
 
 app.controller('thoughts', function($scope) {
-
+	$scope.back = function() {
+			window.history.back();
+	}
 });
