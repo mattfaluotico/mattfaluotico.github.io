@@ -10,15 +10,10 @@ app.config(function($routeProvider){
 		templateUrl: 'views/bio.html',
 		controller: 'bio'
 	})
-	.when('/thoughts', {
-		templateUrl: 'views/thoughts.html',
-		controller: 'thoughts'
+	.when('/work', {
+		templateUrl: 'views/work.html',
+		controller: 'work'
 	})
-	.when('/thoughts/:postid', {
-		templateUrl: 'view/thought.html',
-		controller: 'thought'
-	});
-
 })
 
 app.controller('home', function($scope) {
@@ -31,7 +26,7 @@ app.controller('bio', function($scope) {
 	}
 });
 
-app.controller('thoughts', function($scope) {
+app.controller('work', function($scope) {
 	$scope.back = function() {
 			window.history.back();
 	}
