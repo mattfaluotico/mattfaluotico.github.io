@@ -10,11 +10,11 @@ $tb: 25px;
 $p: 16pt;
 
 @mixin serif {
-	font-family: Georgia, Times New Roman, serif;
+	font-family: "PT Serif", Georgia, Times New Roman, serif;
 }
 
 @mixin sans {
-	font-family: Gotham, Helvetica, sans-serif;
+	font-family: "Lato", Gotham, Helvetica, sans-serif;
 }
 
 // COLORS
@@ -38,6 +38,3 @@ $p: 16pt;
 .flickr {
 	background-color: #ff0084;
 }
-
-
-

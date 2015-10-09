@@ -5,13 +5,13 @@ body {
 }
 
 a {
-	
+
 	@include transition(color 0.2s ease);
 	color: $black;
 
 	&:hover {
 		color: $blue;
-	}	
+	}
 }
 
 p {
@@ -24,7 +24,7 @@ p {
 .title {
 	font-size: 42pt;
 	line-height: 100%;
-	font-weight: 500;
+	font-weight: 900;
 	margin-top: $margin-small;
 
 	@media (max-width: 550px) {
@@ -65,7 +65,7 @@ p {
 
 .link-standalone {
 	@include transition(color 0.2s ease, border 0.2s ease);
-	
+
 	margin-bottom: $margin;
 	margin-right: $margin;
 	display: inline-block;
