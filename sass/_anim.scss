@@ -3,27 +3,6 @@ body {
 	@include animation(in 0.6s ease-in);
 }
 
-.hide {
-	opacity: 0;
-}
-
-.r {
-	color: $black !important;
-}
-
-.left {
-	@include animation(left 0.5s $ease-out-cubic);
-}
-
-@include keyframes(left) {
-	from {
-		@include transform(translate(100%, 0));
-	} 
-	to {
-		@include transform(translate(0, 0));
-	}
-}
-
 @include keyframes(in) {
 	from {
 		opacity: 0;
@@ -33,14 +12,3 @@ body {
 		opacity: 1;
 	}
 }
-
-@include keyframes(up) {
-	from {
-		@include transform(scale(10, 10));
-	}
-
-	to {
-		@include transform(scale(1, 1));
-	}
-}
-
