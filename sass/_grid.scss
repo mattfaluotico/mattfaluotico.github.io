@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+  clear: both;
 	width: 85%;
 	max-width: 700px;
 	margin: 0 auto;
@@ -14,3 +15,7 @@ body {
 	}
 }
 
+
+.section {
+  margin-bottom: 150px;
+}
