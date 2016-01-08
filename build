@@ -1,1 +1,1 @@
-curl -L https://gist.githubusercontent.com/mattfxyz/fcd4a294adf9c86a206b/raw/1ed9399eeec4903ba3d3c34b7e3274d3fad521a7/build.sh | sh
+curl -L https://raw.githubusercontent.com/mattfxyz/build/master/build.sh | sh
