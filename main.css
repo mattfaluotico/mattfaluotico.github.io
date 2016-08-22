@@ -7,7 +7,8 @@ body {
 
 .parent {
   position: relative;
-  max-width: 600px;
+  max-width: 80%;
+  width: 600px;
   margin: auto;
   height: 100vh;
 }
@@ -23,6 +24,7 @@ body {
   transform: translateY(-50%);
 }
 
+
 .title  {
   font-size: 36pt;
   font-weight: 800;
@@ -31,6 +33,16 @@ body {
 .subtitle {
   font-size: 20pt;
   font-weight: 800;
+}
+
+@media (max-width: 550px) {
+    .title {
+      font-size: 30pt;
+    }
+
+    .subtitle {
+      font-size: 18pt;
+    }
 }
 
 p {
