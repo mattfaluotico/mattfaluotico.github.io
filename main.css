@@ -6,11 +6,14 @@ body {
 }
 
 .parent {
-  position: relative;
   max-width: 80%;
   width: 600px;
   margin: auto;
-  height: 100vh;
+}
+
+.parent.locked {
+  position: relative;
+  min-height: 100vh;
 }
 
 #window {
@@ -37,7 +40,8 @@ body {
 
 @media (max-width: 550px) {
     .title {
-      font-size: 30pt;
+      font-size: 22pt;
+      font-weight: heavy;
     }
 
     .subtitle {
