@@ -1,17 +1,3 @@
-function intro(event) {
-  var client = new XMLHttpRequest();
-  client.open('GET', '/me.html');
-  client.onreadystatechange = function() {
-    if (client.readyState == 4 && client.status == 200) {
-      if (client.responseText.length > 0) {
-        document.getElementById('window').innerHTML = client.responseText
-      }
-    }
-  }
-  client.send();
-}
-
-
 function projects() {
   return [
     {
