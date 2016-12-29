@@ -56,7 +56,7 @@ p {
   margin: 0;
   margin-bottom: 20px;
   line-height: 140%;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 a {
@@ -66,16 +66,5 @@ a {
 }
 
 a:hover {
-  color: #33b5e5;
-}
-
-
-.content a {
   color: rgb(236, 236, 236);
-  box-shadow: inset 0 -3px 0 #33b5e5;;
-}
-
-.content a:hover {
-  color: #323232;
-  background-color: #33b5e5;
 }
