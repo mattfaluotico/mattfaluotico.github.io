@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: rgb(236, 236, 236);
   background-color: rgb(47, 46, 45);
   margin: 0;
@@ -9,6 +9,7 @@ body {
   max-width: 80%;
   width: 600px;
   margin: auto;
+  font-weight: normal;
 }
 
 .main {
@@ -29,16 +30,6 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.title  {
-  font-size: 36pt;
-  font-weight: 800;
-}
-
-.subtitle {
-  font-size: 20pt;
-  font-weight: 800;
 }
 
 @media (max-width: 550px) {
