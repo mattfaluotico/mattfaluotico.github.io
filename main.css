@@ -9,21 +9,12 @@ body {
   max-width: 80%;
   width: 600px;
   margin: auto;
-  font-weight: normal;
-}
-
-.main {
-  margin-top: 50px;
+  font-weight: 200;
 }
 
 .parent.locked {
   position: relative;
   min-height: 100vh;
-}
-
-#window {
-  max-height: 1000px;
-  transition: all 0.3s
 }
 
 .container {
@@ -32,30 +23,13 @@ body {
   transform: translateY(-50%);
 }
 
-@media (max-width: 550px) {
-    .title {
-      font-size: 22pt;
-      font-weight: heavy;
-    }
-
-    .subtitle {
-      font-size: 18pt;
-    }
-}
-
 p {
   margin: 0;
   margin-bottom: 20px;
   line-height: 140%;
-  font-size: 12pt;
+  font-size: 13pt;
 }
 
 a {
-  color: rgb(236, 236, 236);
   text-decoration: none;
-  transition: all 0.3s
-}
-
-a:hover {
-  color: rgb(236, 236, 236);
 }
