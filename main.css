@@ -10,6 +10,9 @@ body {
   font-weight: 700;
 }
 
+.linkz {
+  font-size: 24pt;
+}
 
 .parent {
   max-width: 80%;
@@ -37,13 +40,13 @@ p {
 }
 
 a {
-  font-size: 24pt;
   text-decoration: none;
 }
 
 @media (max-width: 580px) {
-  a {
+  .linkz {
     font-size: 16pt;
+
   }
 
   .yuge {
