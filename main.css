@@ -41,6 +41,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #0284A8;
 }
 
 @media (max-width: 580px) {
