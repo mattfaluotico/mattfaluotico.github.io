@@ -11,8 +11,9 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-.linkz {
-  font-size: 24pt;
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .parent {
@@ -29,15 +30,14 @@ body {
 
 .container {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 50px;
 }
 
 p {
   margin: 0;
   margin-bottom: 20px;
   line-height: 140%;
-  font-size: 13pt;
+  font-size: 16pt;
 }
 
 a {
