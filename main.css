@@ -5,17 +5,6 @@ body {
   margin: 0;
 }
 
-.yuge {
-  font-size: 56pt;
-  font-weight: 700;
-  font-family: 'Playfair Display', serif;
-}
-
-hr {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
 .parent {
   max-width: 80%;
   width: 600px;
@@ -30,13 +19,28 @@ hr {
 
 .container {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 150px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 16pt;
+  list-style: none;
+  margin: 0 12px 22px 0;
+}
+
+li a {
+  border-bottom-style: solid;
+  padding: 0 12px 4px 0;
 }
 
 p {
   margin: 0;
   margin-bottom: 20px;
-  line-height: 140%;
+  line-height: 1.5;
   font-size: 16pt;
 }
 
@@ -49,9 +53,5 @@ a {
   .linkz {
     font-size: 16pt;
 
-  }
-
-  .yuge {
-    font-size: 28pt;
   }
 }
